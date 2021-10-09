@@ -25,7 +25,7 @@ export const ItemListContainer =() =>  {
 <section className="container my-5">  
  {loading
     ? <h2>Loading...</h2>
-    : <ItemList items={items}/>
+    : <ItemList productos={items}/>
 }
 </section>
     )
